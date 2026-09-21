@@ -1,0 +1,9 @@
+digraph AST {
+  label="G2:  10 / 4  =  2.5"; labelloc=t; fontsize=18; fontname="Helvetica";
+  node [shape=circle, style=filled, fontname="Helvetica", fontsize=16];
+  n0 [label="/", fillcolor=lightblue];
+  n1 [label="10", fillcolor=lightyellow];
+  n0 -> n1;
+  n2 [label="4", fillcolor=lightyellow];
+  n0 -> n2;
+}

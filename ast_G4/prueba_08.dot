@@ -1,0 +1,13 @@
+digraph AST {
+  label="G4:  0.1 + 0.2 - 0.3  =  2.7755575615628914e-17"; labelloc=t; fontsize=18; fontname="Helvetica";
+  node [shape=circle, style=filled, fontname="Helvetica", fontsize=16];
+  n0 [label="+", fillcolor=lightblue];
+  n1 [label="0.1", fillcolor=lightyellow];
+  n0 -> n1;
+  n2 [label="-", fillcolor=lightblue];
+  n3 [label="0.2", fillcolor=lightyellow];
+  n2 -> n3;
+  n4 [label="0.3", fillcolor=lightyellow];
+  n2 -> n4;
+  n0 -> n2;
+}

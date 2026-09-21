@@ -1,0 +1,13 @@
+digraph AST {
+  label="G3:  2 + 3 * 4  =  20.0"; labelloc=t; fontsize=18; fontname="Helvetica";
+  node [shape=circle, style=filled, fontname="Helvetica", fontsize=16];
+  n0 [label="*", fillcolor=lightblue];
+  n1 [label="+", fillcolor=lightblue];
+  n2 [label="2", fillcolor=lightyellow];
+  n1 -> n2;
+  n3 [label="3", fillcolor=lightyellow];
+  n1 -> n3;
+  n0 -> n1;
+  n4 [label="4", fillcolor=lightyellow];
+  n0 -> n4;
+}
